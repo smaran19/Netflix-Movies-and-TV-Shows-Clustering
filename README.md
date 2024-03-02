@@ -23,6 +23,52 @@ k-means clustering is a method of vector quantization, originally from signal pr
 📖 Agglomerative Hierarchical clustering
 The agglomerative hierarchical clustering algorithm is a popular example of HCA. To group the datasets into clusters, it follows the bottom-up approach. It means, this algorithm considers each dataset as a single cluster at the beginning, and then start combining the closest pair of clusters together. It does this until all the clusters are merged into a single cluster that contains all the datasets.
 
+#project structure
+├── README.md
+├── Dataset 
+│   ├── [NETFLIX MOVIES AND TV SHOWS CLUSTERING.csv](https://github.com/Navneet2409/netflix-movies-and-tv-shows-clustering/files/10660309/NETFLIX.MOVIES.AND.TV.SHOWS.CLUSTERING.csv)
+├── Problem Statement
+│
+├── Understanding Data
+│
+├── EDA
+│   ├── Numeric & Categoric features
+│   ├── Univariate Analysis
+│   ├── Bivariate Analysis
+│   ├── Multivariate Analysis
+├──Data Cleaning
+│   ├── Duplicated values
+│   ├── NaN/Missing values
+│   ├── Treating Outlier 
+│
+├── Textual Data Preprocessing
+│   ├── Clustering Attributes
+|   ├── Removing Stopwords
+|   ├── Lowercasing words
+|   ├── Removing Punctuation
+|   ├── Stemming
+│       ├── Snowball Stemmer
+|   ├── Word Vectorization
+|       ├── TF-IDF (Term Frequency - Inverse Document Frequency)
+|   ├── Dimenssionality Reduction
+|       ├── PCA (Principle Component Analysis)
+│
+├── Model Building
+|   ├── Clustering Implemention
+|       ├── K-Means Clustering
+|           ├── Elbow Method
+|           ├── Silhoutte Score Analysis
+|       ├── Agglomerative Hierarchical Clustering
+|           ├── Dendogram
+├── Content Based Recommendation System
+|
+│   
+├── Report
+├── Presentation
+├── Result
+└── Reference
+
+
 #conclusion
 In this project, we tackled a text clustering problem in which we had to categorize and group Netflix shows into specific clusters in such a way that shows in the same cluster are similar to one another and shows in different clusters are not.
 
